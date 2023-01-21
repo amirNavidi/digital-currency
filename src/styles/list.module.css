@@ -1,0 +1,26 @@
+.mainParent{
+    border-bottom: 1px solid #000;
+    width: 100%;
+    position: relative;
+    height: 10vh;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.mainParent:hover{
+    background-color: rgba(128, 128, 128, 0.075);
+}
+.nameParent{
+  position: absolute;
+  right: 4%;
+}
+.nameParent img{
+    margin-left: 6px;
+}
+
+.priceParent{
+    position: absolute;
+    right: 70%;
+}
+.price{
+    font-family: "yekan";
+}

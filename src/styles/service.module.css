@@ -1,0 +1,62 @@
+.color{text-align: center;}
+
+.color span{
+    width: 10px;
+    height: 4px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.one{
+    background-color: blue;
+}
+.two{
+    background-color: green;
+}
+.three{
+    background-color: yellow;
+}
+.four{
+    background-color: red;
+}
+
+.serviceParent{
+    
+    width: 100vw;
+    min-height: 100vh;
+    background-color:#F8FAFE ;
+}
+.serviceParent h2{
+  padding-top: 100px;
+  text-align: center;
+}
+
+.rightFluid img{
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+}
+
+.parent{
+   position: relative;
+   margin: 10px ;
+   background-color: #fff;
+   padding: 15px 0;
+   border-radius: 5px;
+   
+}
+
+
+.sParent span:nth-of-type(2){
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.797);
+}
+
+.parent .iconParent{
+    position: absolute;
+    left: 10px;
+}
+.iconParent{
+    color:gray;
+    font-size: 16px;
+}

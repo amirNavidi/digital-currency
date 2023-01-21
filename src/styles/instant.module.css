@@ -1,0 +1,120 @@
+.allParent{
+    width: 100%;
+    min-height: 190vh;
+    background-color: #F8FAFE;
+   
+}
+.whiteParent{
+    width: 100%;
+    height: 85%;
+    padding-bottom: 50px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.instantPrice{
+    margin: 49px 25px;
+    font-weight: bold;
+}
+.priceParent span:nth-of-type(2){
+   font-size: 12px;
+   color:gray;
+   
+}
+.priceParent span:nth-of-type(2) small{
+    font-family: "yekan";
+}
+.showAll{
+    font-size: 14px;
+    color: skyblue;
+}
+
+.rate{
+    margin-right: 25px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    margin-bottom: 25px;
+}
+.innerRate {
+    height: 100%;
+}
+
+/* max */
+
+.maxParent{
+    border: 1px solid rgba(128, 128, 128, 0.305);
+    padding: 15px 0;
+}
+.max,.min{
+    width: 49%;
+    text-align: center;
+    border-radius: 5px;
+    height: 45px;
+    line-height: 45px;
+
+}
+
+.max img{
+    width: 20px;
+    height: 20px;
+}
+.min img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.bottom{
+  margin: 0 25px;
+  width: calc(100%-50px);
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.305);
+}
+
+.header{
+    padding: 20px 0;
+    background-color: #FAFAFA;
+}
+.sell,.price{
+    /* font-size: 13px; */
+    font-weight: bold;
+    font-family: "yekan";
+}
+.desc{
+    font-size: 14px;
+    color: gray;
+}
+small{
+    font-size: 14px;
+    color: gray; 
+    font-weight: normal;
+}
+
+.right img{
+    width: 40px;
+    height:40px;
+    margin-left: 5px;
+}
+.posetive{
+    font-family: "yekan";
+    color: green;
+    font-weight: bold;
+}
+.negative{
+    font-family: "yekan";
+    color: red;
+    font-weight: bold;
+}
+@media only screen and (max-width:556px) {
+    .maxParent{
+        font-size: 11px;
+    }
+    .desc{
+        font-size: 10px;
+    }
+    .maxParent img{
+        width: 25px;
+        height: 25px;
+    }
+   
+}

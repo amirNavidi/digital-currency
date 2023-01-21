@@ -1,0 +1,70 @@
+.parent{
+    width: 100%;
+    min-height: 80vh;
+
+}
+.color span{
+    width: 10px;
+    height: 4px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.one{
+    background-color: blue;
+}
+.two{
+    background-color: green;
+}
+.three{
+    background-color: yellow;
+}
+.four{
+    background-color: red;
+}
+
+h4{
+    text-align: center;
+}
+.color{
+    text-align: center;
+}
+.header p{
+    text-align: center;
+    color: gray;
+    
+}
+
+.section{
+    height: 25vh;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+}
+.imgFluid{
+    margin-top: 10px;
+}
+
+.imgFluid img{
+    width: 36px;
+    height: 36px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.imgFluid span:nth-of-type(2){
+    font-size: 13px;
+    color:gray;
+}
+
+.comment{
+    margin-right: 15px;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 0;
+  left:5px;
+  font-size: 10px;
+  color: gray;
+}

@@ -1,0 +1,41 @@
+.parent{
+    width: 100%;
+    min-height: 80vh;
+   
+}
+.header{
+    /* border: 1px solid #000; */
+    margin: 50px 0;
+    height: 5vh;
+}
+.header span:nth-of-type(2) {
+    color:skyblue ;
+}
+
+.section{
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 120px;
+
+}
+.imgFluid{
+    width: 100%;
+    height: 25vh;
+    
+}
+.imgFluid img{
+    width: 100% ;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.underImage{
+    height: 10vh;
+    border: 1px solid gray;
+    border-radius: 0 0 10px 10px;
+}
+.underImage h6{
+    font-weight: bold;
+}
+.underImage span{
+    color:gray;
+}

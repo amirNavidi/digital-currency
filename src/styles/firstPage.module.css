@@ -1,0 +1,187 @@
+.firstParent{
+    height: 100vh;
+    position: relative;
+}
+
+.logoParent{
+    height: 13vh;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo{
+   height: 100%;
+}
+
+/* search-box */
+.searchParent{
+border: 1px solid rgba(128, 128, 128, 0.699);
+border-radius: 10px;
+height: 30vh;
+position: relative;
+
+}
+.body{
+    height: 75%;
+}
+.innerParent{
+    height: 100%;
+}
+.head{
+    width: 100%;
+    height: 25%;
+    background-color: #FAFAFA;
+    border-radius: 10px 10px 0 0;
+    border-bottom:1px solid  rgba(128, 128, 128, 0.699) ;
+}
+.choose{
+    border: 1px solid  rgba(128, 128, 128, 0.699);
+    border-radius: 5px;
+    position: relative;
+    min-height: 7vh;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+.choose p{
+    font-size: 12px;
+    color:rgba(128, 128, 128, 0.699);
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    z-index: 99;
+    background-color: white;
+}
+.text{
+    padding-right: 10px;
+    text-align: center;
+    font-size: 13px;
+   
+}
+.text img{
+    width: 25px;
+    height: 25px;
+}
+
+
+.btn{
+    position: absolute;
+    bottom: 5px;
+    left: 5%;
+    padding: 5px 45px;
+    border: none;
+    background-color: #4285F2;
+    color: white;
+    border-radius: 5px;
+}
+
+/* chevren */
+.chevron{
+    width: 80px;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid gray;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 20%;
+    transform: rotate(45deg);
+    animation: move 2s linear  infinite ;
+   
+}
+.chevronTwo{
+    width: 80px;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid gray;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 20%;
+    transform: rotate(45deg);
+    animation: move 2s linear 1.1s infinite forwards ;
+   
+}
+
+
+/* list */
+.list{
+    position: absolute;
+    z-index: 100;
+    height: 80vh;
+    top: 10%;
+    border: 1px solid rgba(128, 128, 128, 0.699);
+    border-radius: 10px;
+    background: white;
+    overflow-y: scroll;
+
+}
+.listB{
+    position: absolute;
+    z-index: 101;
+    height: 80vh;
+    top: 10%;
+    border: 1px solid rgba(128, 128, 128, 0.699);
+    border-radius: 10px;
+    background: white;
+    overflow-y: scroll;
+
+}
+.name{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.name:hover{
+    background-color: rgba(128, 128, 128, 0.062);
+}
+
+/* search palce */
+
+.searchPlace input {
+    width: 90%;
+    height: 5vh;
+    border: 3px solid rgba(90, 90, 228, 0.611);
+    border-radius: 10px;
+    padding-right: 10px;
+    margin: 10px ;
+}
+
+
+/* under list */
+.underList{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    background-color:rgba(128, 128, 128, 0.184) ;
+    overflow: hidden; 
+}
+
+
+@keyframes move {
+    from{
+        transform: translateY(0) rotate(45deg);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(30px) rotate(45deg);
+        opacity:1;
+       
+    }
+}
+
+@media only screen and (max-width:992px) {
+.btn{
+    padding: 5px 15px;
+    left:2%;
+}
+.searchParent{
+    height: 45vh;
+}
+}
+

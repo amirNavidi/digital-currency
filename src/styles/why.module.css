@@ -1,0 +1,65 @@
+.parent{
+    margin-top: 200px;
+}
+.parent h2{
+    text-align: center;
+}
+.color{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.color span{
+    width: 10px;
+    height: 4px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.one{
+    background-color: blue;
+}
+.two{
+    background-color: green;
+}
+.three{
+    background-color: yellow;
+}
+.four{
+    background-color: red;
+}
+
+
+.descriptParent{
+    display: flex;
+    justify-content: center;
+}
+.description{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.548);
+    text-align: center;
+}
+
+.bottomParent{
+    margin-bottom: 100px;
+}
+.bottomParent div{
+  margin-right: 20px !important;
+  text-align: center;
+  width: 15%;
+  border-left: 1px solid rgba(0, 0, 0, 0.548);
+  margin-top: 40px;
+}
+.bottomParent div:last-child{
+    border: none;
+}
+.bottomParent p{
+    font-weight: bolder;
+}
+.bottomParent span{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.548);
+}
+.number{
+    font-family: "yekan";
+    font-size: 16px !important;
+}
